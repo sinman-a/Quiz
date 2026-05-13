@@ -8,7 +8,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^6.3.0"
+    "vite": "^6.3.0",
+    "wrangler": "^4.90.1"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.3"
