@@ -1,0 +1,813 @@
+{
+  "ui": {
+    "title": "Project Management Quiz",
+    "subtitle": "PMBOK® 7th Edition",
+    "start": "Start Quest",
+    "next": "Next Question",
+    "restart": "Start Again",
+    "score": "Score",
+    "yourScore": "Your Score"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "category": "value_delivery",
+      "question": "A senior executive shares a new corporate strategy aimed at increasing market share. In the value delivery system, which component is primarily responsible for translating this strategy into desired outcomes and benefits?",
+      "options": ["Operations", "Portfolios", "Individual projects", "Project Management Office (PMO)"],
+      "correct": 1,
+      "explanation": "The Standard for Project Management provides a basis for understanding project management and how it enables intended outcomes regardless of industry, location, size, or delivery approach. Portfolios translate senior leadership strategy into desired outcomes and benefits. (Section 1.1)"
+    },
+    {
+      "id": 2,
+      "category": "value_delivery",
+      "question": "During a project review, a manager focuses on the actual benefits realized by the customers rather than just the completed software modules. This focus is an example of prioritizing:",
+      "options": ["Outputs", "Artifacts", "Outcomes", "Project tasks"],
+      "correct": 2,
+      "explanation": "An Outcome is the final result or consequence of a process or project. Outcomes can include outputs and artifacts, but have a broader focus on the benefits and value. Focusing on actual benefits is prioritizing outcomes over outputs. (Section 1.2)"
+    },
+    {
+      "id": 3,
+      "category": "value_delivery",
+      "question": "Strategic information flows from senior leadership to portfolios. What information typically flows back from operations to programs and projects to support continuous improvement?",
+      "options": ["Funding approvals and budget limits", "Desired business value and strategic goals", "Information on updates, fixes, and modifications", "Performance assessments of the portfolio"],
+      "correct": 2,
+      "explanation": "Information from operations is shared with programs and projects as advice on modification, fix, and update of deliverables. This feedback loop supports continuous improvement across the system. (Section 2.1.2)"
+    },
+    {
+      "id": 4,
+      "category": "value_delivery",
+      "question": "A project team is producing a unique product. Within the value delivery system, what do programs and projects provide to the 'Operations' component?",
+      "options": ["Strategic direction and vision", "Portfolio performance assessments", "Outputs with support and maintenance information", "Business objectives and desired outcomes"],
+      "correct": 2,
+      "explanation": "Programs and projects provide Operations with outputs along with support and maintenance information. This ensures a smooth transition of project results into the organization's day-to-day operations. (Section 2.1.2)"
+    },
+    {
+      "id": 5,
+      "category": "value_delivery",
+      "question": "An organization is evaluating its internal environment. Which of the following is considered an internal environmental factor that influences the value delivery system?",
+      "options": ["Organizational culture, structure, and governance", "Market conditions and competitor actions", "National regulatory requirements", "Financial considerations such as exchange rates"],
+      "correct": 0,
+      "explanation": "The internal environment includes organizational culture, structure, and governance. External environment includes market conditions, regulatory requirements, and financial factors. Distinguishing between the two is key for project planning. (Section 2.4.1)"
+    },
+    {
+      "id": 6,
+      "category": "value_delivery",
+      "question": "A portfolio manager receives a report indicating that a major program is no longer aligned with the updated organizational strategy. What should the portfolio manager provide to the program?",
+      "options": ["A new technical specification for the product", "A list of completed project outputs", "Updated desired outcomes and strategic alignment", "Information on operational fixes"],
+      "correct": 2,
+      "explanation": "Portfolios share desired outcomes, benefits, and value with programs and projects. When strategy changes, the portfolio manager must provide updated desired outcomes to restore strategic alignment. (Section 2.1.2)"
+    },
+    {
+      "id": 7,
+      "category": "value_delivery",
+      "question": "Which function in the value delivery system is primarily responsible for providing a structure for decision-making and resolving issues that the project team cannot handle alone?",
+      "options": ["Technical experts", "End users", "Governance and resource providers", "Project operations staff"],
+      "correct": 2,
+      "explanation": "Governance systems provide a structure with functions and processes that guide activities and resolve issues the team cannot handle independently. Governance provides the 'guardrails' for project execution. (Section 2.2)"
+    },
+    {
+      "id": 8,
+      "category": "value_delivery",
+      "question": "A project manager is concerned about how external factors like inflation and interest rates will affect the project budget. These factors belong to which environment?",
+      "options": ["Internal environment", "External environment", "Organizational process assets", "Internal governance structure"],
+      "correct": 1,
+      "explanation": "The external environment includes, but is not limited to: market conditions, social and cultural influences, the regulatory environment, and financial considerations such as exchange rates and inflation. (Section 2.4.2)"
+    },
+    {
+      "id": 9,
+      "category": "value_delivery",
+      "question": "What defines 'Value' in the context of the standard for project management?",
+      "options": ["The total revenue generated by the project outputs", "The worth, importance, or usefulness of something as perceived by stakeholders", "The strict adherence to the project schedule and budget", "The number of artifacts produced during the project lifecycle"],
+      "correct": 1,
+      "explanation": "Value is the worth, importance, or usefulness of something. Organizations may focus on business value, defined using financial metrics. Value is subjective and depends on the stakeholder perspective. (Section 1.2)"
+    },
+    {
+      "id": 10,
+      "category": "value_delivery",
+      "question": "In a value delivery system, how is information about the success of the organizational strategy typically communicated to senior leadership?",
+      "options": ["Through outcomes, benefits, and value performance analysis", "Via daily project status reports from team members", "By reviewing technical product specifications", "Through the logs of operational maintenance"],
+      "correct": 0,
+      "explanation": "Information about strategic success flows back to senior leadership through outcomes, benefits, and value performance analysis. This feedback helps adjust strategy based on real-world results. (Section 2.1.2)"
+    },
+    {
+      "id": 11,
+      "category": "value_delivery",
+      "question": "A government agency initiates a project to reduce traffic congestion. The resulting new traffic management system is the:",
+      "options": ["Output", "Outcome", "Portfolio", "Strategy"],
+      "correct": 0,
+      "explanation": "A deliverable (output) is any unique and verifiable product, result, or capability to perform a service. The traffic management system itself is the project output. The actual reduction in travel time would be the outcome. (Section 1.2)"
+    },
+    {
+      "id": 12,
+      "category": "value_delivery",
+      "question": "Following the launch of the traffic management system, the actual reduction in average travel time for citizens is the:",
+      "options": ["Output", "Outcome", "Artifact", "Governance"],
+      "correct": 1,
+      "explanation": "An Outcome is the final result or consequence of a process or project. The reduction in travel time is the actual change experienced by citizens from the system — the outcome, not the product (output) itself. (Section 1.2)"
+    },
+    {
+      "id": 13,
+      "category": "value_delivery",
+      "question": "Which component of the value delivery system is defined as a temporary endeavor to create a unique product, service, or result?",
+      "options": ["Program", "Portfolio", "Project", "Operation"],
+      "correct": 2,
+      "explanation": "A Project is a temporary endeavor undertaken to create a unique product, service, or result. Unlike operations (recurring activities), projects have a definite beginning and end. (Section 1.2)"
+    },
+    {
+      "id": 14,
+      "category": "value_delivery",
+      "question": "An organization manages a group of related projects and subsidiary programs to achieve benefits that are not available from managing them individually. This is a:",
+      "options": ["Portfolio", "Program", "Product", "System"],
+      "correct": 1,
+      "explanation": "A Program consists of related projects, subsidiary programs, and program activities managed in a coordinated way to obtain benefits not available from managing them individually. Synergy is the key driver. (Section 1.2)"
+    },
+    {
+      "id": 15,
+      "category": "value_delivery",
+      "question": "Who is responsible for providing the project team with the authority to use organizational resources and resolving high-level obstacles?",
+      "options": ["The End User", "The Sponsor", "The Project Lead", "The Technical Expert"],
+      "correct": 1,
+      "explanation": "The Sponsor provides the project team with authority to use organizational resources and resolves high-level obstacles the team cannot handle alone. Sponsors bridge the gap between leadership and the team. (Section 2.3.7)"
+    },
+    {
+      "id": 16,
+      "category": "value_delivery",
+      "question": "A project is developing a new medical device. The 'End User' function in this project is primarily concerned with:",
+      "options": ["Providing the project's financial funding", "Directly interacting with the project's outputs to gain value", "Managing the project team's daily tasks", "Aligning the project with the corporate portfolio"],
+      "correct": 1,
+      "explanation": "End Users directly interact with the project's outputs to gain value. For a medical device, this includes patients and medical staff. Distinguishing between who pays (Customer) and who uses (End User) is vital. (Section 2.3.2)"
+    },
+    {
+      "id": 17,
+      "category": "value_delivery",
+      "question": "Which of the following describes the flow of information regarding 'Portfolio Performance'?",
+      "options": ["From Operations to Programs", "From Portfolios to Senior Leadership", "From Senior Leadership to Projects directly", "From Projects to Operations"],
+      "correct": 1,
+      "explanation": "Portfolio performance information flows from Portfolios to Senior Leadership — this upward feedback loop allows leadership to assess how strategy translates into real results. (Section 2.1.2)"
+    },
+    {
+      "id": 18,
+      "category": "value_delivery",
+      "question": "A project team is working in a highly regulated industry. The team must follow specific legal standards. This is an example of the project operating within:",
+      "options": ["Internal environment only", "External environmental factors", "Project management processes", "Organizational process assets"],
+      "correct": 1,
+      "explanation": "The external environment includes the regulatory environment. Legal standards of a regulated industry are a classic example of external environmental factors that influence project planning and execution. (Section 2.4.2)"
+    },
+    {
+      "id": 19,
+      "category": "value_delivery",
+      "question": "In the value delivery model, what is the primary role of 'Operations'?",
+      "options": ["To perform recurring activities that support the ongoing business", "To create unique, temporary results", "To define the organizational strategy", "To manage all project risks"],
+      "correct": 0,
+      "explanation": "Operations perform recurring activities that support the ongoing business. Unlike projects (temporary and unique), operations are ongoing and support the organization after project completion. (Section 1.2)"
+    },
+    {
+      "id": 20,
+      "category": "value_delivery",
+      "question": "How does a system of governance interact with the value delivery system?",
+      "options": ["It replaces the need for project managers", "It provides the framework for decision-making and oversight", "It focuses only on technical product quality", "It prevents any changes to the project strategy"],
+      "correct": 1,
+      "explanation": "Governance provides the framework for decision-making and oversight, not a replacement for project managers. Effective governance supports rather than hinders the delivery of value. (Section 2.2)"
+    },
+    {
+      "id": 21,
+      "category": "principles",
+      "question": "A project manager discovers a conflict of interest that could influence their decision-making. According to the principle of 'Stewardship' and the value of 'Honesty,' what should they do?",
+      "options": ["Proceed with the project but keep the conflict secret to avoid delays", "Proactively disclose the conflict and seek guidance from governance", "Delegate the decision to a team member without explaining why", "Ignore the conflict if it doesn't directly violate any laws"],
+      "correct": 1,
+      "explanation": "Stewards act responsibly, carrying out activities with integrity, care, and trustworthiness while maintaining compliance. Proactively disclosing a conflict is a demonstration of honesty and stewardship. (Section 3.1)"
+    },
+    {
+      "id": 22,
+      "category": "principles",
+      "question": "A team is working on a complex project with several unknown variables. Which principle encourages them to look at the project as a holistic entity with interacting components?",
+      "options": ["Stewardship", "Systems Thinking", "Complexity", "Adaptability"],
+      "correct": 1,
+      "explanation": "Systems Thinking helps teams recognize and respond to dynamic interactions within the project holistically. A project is a system of interdependent and interacting domains of activity. (Section 3.5)"
+    },
+    {
+      "id": 23,
+      "category": "principles",
+      "question": "During a resource allocation meeting, a manager ensures that all project opportunities are distributed based on merit and professional need, rather than personal favorites. This applies the ethical value of:",
+      "options": ["Responsibility", "Respect", "Fairness", "Honesty"],
+      "correct": 2,
+      "explanation": "Fairness means distributing resources and opportunities based on merit and needs, not personal preferences. This value is fundamental in the PMI Code of Ethics and the principles of project management. (PMI Code of Ethics)"
+    },
+    {
+      "id": 24,
+      "category": "principles",
+      "question": "To be a 'diligent, respectful, and caring steward,' a project team must:",
+      "options": ["Act with integrity, care, and trustworthiness while following guidelines", "Focus exclusively on the financial returns of the project", "Minimize communication with stakeholders to speed up tasks", "Ignore external environmental impacts to protect the project budget"],
+      "correct": 0,
+      "explanation": "Teams that work collaboratively achieve shared objectives more effectively and efficiently than individuals. Stewardship includes integrity, care, trustworthiness, and compliance with guidelines. (Section 3.1)"
+    },
+    {
+      "id": 25,
+      "category": "principles",
+      "question": "Which principle emphasizes that leadership behavior is not limited to the project manager but can be demonstrated by any team member?",
+      "options": ["Team", "Leadership", "Stakeholders", "Change"],
+      "correct": 1,
+      "explanation": "Leadership is a behavior, not just a title. Any project team member can demonstrate leadership behaviors. Demonstrate and adapt leadership behaviors to support individual and team needs. (Section 3.6)"
+    },
+    {
+      "id": 26,
+      "category": "principles",
+      "question": "A project manager admits to a reporting error that underestimated the project's costs. This demonstrates the ethical value of:",
+      "options": ["Responsibility", "Fairness", "Respect", "Tailoring"],
+      "correct": 0,
+      "explanation": "Responsibility means acknowledging mistakes and accepting accountability for one's actions and decisions. This is a fundamental value in the PMI Code of Ethics that requires honesty about errors. (PMI Code of Ethics)"
+    },
+    {
+      "id": 27,
+      "category": "principles",
+      "question": "The principle 'Focus on Value' means that the project team should:",
+      "options": ["Only worry about completing the project scope on time", "Continually evaluate alignment with business objectives and benefits", "Prioritize technical excellence over customer requirements", "Avoid changing the project plan even if market conditions shift"],
+      "correct": 1,
+      "explanation": "Value is the ultimate indicator of project success. The project team continually evaluates and adjusts project alignment to business objectives and intended benefits and value. (Section 3.4)"
+    },
+    {
+      "id": 28,
+      "category": "principles",
+      "question": "When a project team creates a 'collaborative team environment,' they are:",
+      "options": ["Implementing a strict hierarchical reporting structure", "Using team agreements and structures to support synergy", "Discouraging individual learning to maintain focus", "Letting everyone work in isolation to avoid conflicts"],
+      "correct": 1,
+      "explanation": "Project teams that work collaboratively can achieve a shared objective more effectively and efficiently. Using team agreements and structures to support synergy is a key aspect of the Team principle. (Section 3.2)"
+    },
+    {
+      "id": 29,
+      "category": "principles",
+      "question": "According to the principles, effective stakeholder engagement is vital because stakeholders:",
+      "options": ["Are always the ones providing the project resources", "Influence project performance, outcomes, and success factors", "Should manage the daily technical work of the project team", "Must approve every single task in the project schedule"],
+      "correct": 1,
+      "explanation": "Stakeholders influence projects, performance, and outcomes. Proactively engage stakeholders to the extent needed to contribute to project success and customer satisfaction. (Section 3.3)"
+    },
+    {
+      "id": 30,
+      "category": "principles",
+      "question": "A project manager listens to diverse viewpoints before making a decision, ensuring all voices are heard. This reflects the ethical value of:",
+      "options": ["Honesty", "Responsibility", "Respect", "Stewardship"],
+      "correct": 2,
+      "explanation": "Respect involves valuing diverse perspectives and ensuring all voices are heard. Stewards behave honestly and ethically in all engagements and communications. (Section 3.1)"
+    },
+    {
+      "id": 31,
+      "category": "principles",
+      "question": "The principle of 'Tailoring' requires the team to adjust the approach based on:",
+      "options": ["Only the latest industry trends", "The unique context, objectives, and environment of the project", "The Project Manager's personal management style", "The minimum number of artifacts required by the PMO"],
+      "correct": 1,
+      "explanation": "Design the project development approach based on the context of the project, its objectives, stakeholders, complexity, and the environment. A 'one size fits all' approach leads to inefficiency. (Section 3.7)"
+    },
+    {
+      "id": 32,
+      "category": "principles",
+      "question": "'Build quality into processes and outputs' means quality should be:",
+      "options": ["Inspected only at the final delivery stage", "Integrated throughout the project to meet stakeholder requirements", "Defined by the team without consulting the customer", "Sacrificed if the project schedule is at risk"],
+      "correct": 1,
+      "explanation": "Maintain a focus on quality that produces deliverables meeting project objectives and aligning to needs, uses, and acceptance requirements. Quality is a continuous practice, not just a final inspection. (Section 3.8)"
+    },
+    {
+      "id": 33,
+      "category": "principles",
+      "question": "How should a project team 'Navigate Complexity'?",
+      "options": ["By using knowledge, experience, and learning to address dynamic interactions", "By simplifying the project scope until all complexity is removed", "By following a rigid plan that ignores external changes", "By delegating all complex tasks to external consultants"],
+      "correct": 0,
+      "explanation": "Complexity cannot be eliminated, only managed. Continually evaluate and navigate project complexity so that approaches and plans enable the project team to successfully navigate the project life cycle. (Section 3.9)"
+    },
+    {
+      "id": 34,
+      "category": "principles",
+      "question": "To 'Optimize Risk Responses,' the team must continually:",
+      "options": ["Avoid all activities that carry any potential risk", "Evaluate and respond to both threats and opportunities", "Focus only on high-impact negative risks", "Create a risk register once at the start of the project"],
+      "correct": 1,
+      "explanation": "Risks aren't just negative; they include 'upside' opportunities. Continually evaluate exposure to risk, both opportunities and threats, to maximize positive impacts and minimize negative ones. (Section 3.10)"
+    },
+    {
+      "id": 35,
+      "category": "principles",
+      "question": "'Embrace Adaptability and Resilience' allows the project team to:",
+      "options": ["Recover from setbacks and adjust to changing circumstances", "Prevent any changes to the project's initial scope", "Minimize the frequency of stakeholder meetings", "Use only predictive life cycles for all projects"],
+      "correct": 0,
+      "explanation": "Change is inevitable; recovery is strategic. Build adaptability and resilience into the organization's and project team's approaches to help the project accommodate change and recover from setbacks. (Section 3.11)"
+    },
+    {
+      "id": 36,
+      "category": "principles",
+      "question": "The principle 'Enable Change to Achieve the Envisioned Future State' involves:",
+      "options": ["Changing the project manager whenever an issue arises", "Helping individuals and the organization transition to new ways of working", "Automatically approving all change requests from stakeholders", "Reducing the focus on long-term project outcomes"],
+      "correct": 1,
+      "explanation": "Projects are the drivers of organizational transformation. Prepare those impacted for the transition and sustain the change to enable the envisioned future state. (Section 3.12)"
+    },
+    {
+      "id": 37,
+      "category": "principles",
+      "question": "Systems thinking requires project teams to recognize that:",
+      "options": ["Every project task is completely independent", "A project is a system of interdependent and interacting activities", "Only external factors can cause system failures", "The project plan is the most important component of the system"],
+      "correct": 1,
+      "explanation": "A project exists in dynamic conditions as a system of interdependent and interacting activities. These interconnected structures are known as a system of systems — portfolios, programs, projects. (Section 3.5)"
+    },
+    {
+      "id": 38,
+      "category": "principles",
+      "question": "A project leader who motivates and coaches team members rather than just issuing commands is demonstrating:",
+      "options": ["Effective leadership behavior", "Lack of control over the project", "Adherence to strict stewardship rules", "Inability to manage technical tasks"],
+      "correct": 0,
+      "explanation": "A project environment that prioritizes vision, creativity, motivation, enthusiasm, encouragement, and empathy can contribute to better outcomes. Leadership is a behavior, not just a title. (Section 3.6)"
+    },
+    {
+      "id": 39,
+      "category": "principles",
+      "question": "Respect in project management includes which of the following?",
+      "options": ["Prioritizing the needs of the most powerful stakeholders", "Valuing diverse perspectives and cultural differences", "Avoiding difficult conversations with team members", "Following all instructions from senior management without question"],
+      "correct": 1,
+      "explanation": "Respect involves valuing diverse perspectives and cultural differences. Project teams often work in diverse environments where awareness of different cultural norms is key to effective collaboration. (Section 3.2)"
+    },
+    {
+      "id": 40,
+      "category": "principles",
+      "question": "Integrity as a component of Stewardship means:",
+      "options": ["Acting honestly and ethically in all interactions", "Ensuring the project is completed at the lowest cost", "Protecting the project manager from legal liability", "Always agreeing with the project sponsor"],
+      "correct": 0,
+      "explanation": "Integrity — Stewards behave honestly and ethically in all engagements and communications. The 12 principles of project management are aligned with the values identified in the PMI Code of Ethics. (Section 3.1)"
+    },
+    {
+      "id": 41,
+      "category": "performance_domains",
+      "question": "A project manager is identifying all people and groups that may be affected by the project results. This activity belongs to which performance domain?",
+      "options": ["Team", "Stakeholders", "Uncertainty", "Project Work"],
+      "correct": 1,
+      "explanation": "The Stakeholders Performance Domain addresses activities and functions associated with stakeholders, including their identification and engagement. Success depends on managing relationships proactively. (Guide Section 2.1)"
+    },
+    {
+      "id": 42,
+      "category": "performance_domains",
+      "question": "The 'Team' performance domain focuses on which of the following?",
+      "options": ["Defining the project's technical architecture", "Fostering a high-performing culture and leadership skills", "Managing procurement contracts with vendors", "Tracking the project's financial budget"],
+      "correct": 1,
+      "explanation": "The Team Performance Domain addresses activities and functions associated with people responsible for producing project deliverables. Culture drives productivity. (Guide Section 2.2)"
+    },
+    {
+      "id": 43,
+      "category": "performance_domains",
+      "question": "Which domain addresses the choice between a predictive, adaptive, or hybrid development approach?",
+      "options": ["Development Approach and Life Cycle", "Planning", "Delivery", "Project Work"],
+      "correct": 0,
+      "explanation": "The Development Approach and Life Cycle domain addresses the relationship between the development approach, delivery cadence, and project life cycle. This domain dictates the 'tempo' of the project. (Guide Section 2.3)"
+    },
+    {
+      "id": 44,
+      "category": "performance_domains",
+      "question": "A project team is constantly updating their work estimates and schedules as more information becomes available. This is a key activity in which domain?",
+      "options": ["Measurement", "Planning", "Stakeholders", "Uncertainty"],
+      "correct": 1,
+      "explanation": "Planning addresses activities and functions associated with the initial, ongoing, and evolving organization and coordination necessary for delivering project outcomes. Planning is continuous, not a one-time event. (Guide Section 2.4)"
+    },
+    {
+      "id": 45,
+      "category": "performance_domains",
+      "question": "The 'Project Work' performance domain is primarily concerned with:",
+      "options": ["Finalizing the project scope", "Managing physical resources and project processes", "Selecting the team's leadership style", "Defining the definition of done"],
+      "correct": 1,
+      "explanation": "Project Work addresses activities associated with establishing project processes, managing physical resources, and fostering a learning environment. Processes must enable, not hinder, delivery. (Guide Section 2.5)"
+    },
+    {
+      "id": 46,
+      "category": "performance_domains",
+      "question": "Which performance domain is focused on delivering the scope and quality that the project was commissioned to provide?",
+      "options": ["Project Work", "Delivery", "Measurement", "Team"],
+      "correct": 1,
+      "explanation": "Delivery addresses activities and functions associated with delivering the scope and quality that the project was undertaken to achieve. Delivery is about the 'What' and 'Why.' (Guide Section 2.6)"
+    },
+    {
+      "id": 47,
+      "category": "performance_domains",
+      "question": "A project manager uses dashboards to track key performance indicators (KPIs) and determine if the project is meeting its objectives. This belongs to:",
+      "options": ["Planning", "Measurement", "Uncertainty", "Delivery"],
+      "correct": 1,
+      "explanation": "The Measurement Performance Domain addresses activities and functions associated with assessing project performance and taking appropriate actions to maintain acceptable performance. (Guide Section 2.7)"
+    },
+    {
+      "id": 48,
+      "category": "performance_domains",
+      "question": "The 'Uncertainty' performance domain addresses which aspects of a project?",
+      "options": ["Risk, ambiguity, and volatility", "Fixed requirements and budgets", "Team member recruitment and training", "Historical data and project archives"],
+      "correct": 0,
+      "explanation": "The Uncertainty domain addresses activities and functions associated with risk and uncertainty. Managing the unknown is critical for project resilience. (Guide Section 2.8)"
+    },
+    {
+      "id": 49,
+      "category": "performance_domains",
+      "question": "When a significant variance is discovered in the 'Measurement' domain, how does it interact with the 'Planning' domain?",
+      "options": ["It terminates the planning process immediately", "It triggers a review and potential adjustment of the project plans", "It requires the team to switch to a predictive approach", "It has no impact on planning once the baseline is set"],
+      "correct": 1,
+      "explanation": "A significant variance in Measurement triggers a review and potential adjustment of project plans. Planning interacts with other domains to ensure continuous alignment with project goals. (Guide Section 2.4)"
+    },
+    {
+      "id": 50,
+      "category": "performance_domains",
+      "question": "In the 'Stakeholders' domain, a key outcome is:",
+      "options": ["A completed project charter", "Productive working relationships with stakeholders", "A signed procurement contract", "A detailed work breakdown structure"],
+      "correct": 1,
+      "explanation": "The key outcome of the Stakeholders domain is productive working relationships built on trust and mutual respect. Effective stakeholder engagement proactively advances value delivery. (Guide Section 2.1)"
+    },
+    {
+      "id": 51,
+      "category": "performance_domains",
+      "question": "How does the 'Development Approach and Life Cycle' domain interact with 'Delivery'?",
+      "options": ["It determines the cadence and methods for delivering project results", "It defines the team's organizational structure", "It identifies the project's external risks", "It calculates the project's earned value"],
+      "correct": 0,
+      "explanation": "The development approach determines how and when planning and delivery occurs. An adaptive approach leads to iterative delivery; a predictive approach leads to final delivery. (Guide Section 2.3.1)"
+    },
+    {
+      "id": 52,
+      "category": "performance_domains",
+      "question": "Continuous learning and improvement throughout the project is a focus of which domain?",
+      "options": ["Stakeholders", "Planning", "Project Work", "Delivery"],
+      "correct": 2,
+      "explanation": "Project Work includes managing physical resources, establishing project processes, and maintaining a learning environment and culture of continuous improvement throughout the project. (Guide Section 2.5)"
+    },
+    {
+      "id": 53,
+      "category": "performance_domains",
+      "question": "Success in the 'Delivery' domain is ultimately measured by:",
+      "options": ["The amount of documentation produced", "The realization of business value and desired outcomes", "Sticking to the initial project plan without any changes", "The total number of hours worked by the team"],
+      "correct": 1,
+      "explanation": "Delivery is about realizing intended value and meeting acceptance requirements. Success is measured not by documentation but by actual business outcomes achieved. (Guide Section 2.6)"
+    },
+    {
+      "id": 54,
+      "category": "performance_domains",
+      "question": "'Ambiguity' in a project refers to:",
+      "options": ["A state of uncertainty where multiple meanings or outcomes are possible", "A clear and detailed project schedule", "A disagreement between two team members", "A lack of financial resources"],
+      "correct": 0,
+      "explanation": "Ambiguity is a state of being unclear, having difficulty in identifying the cause of events, or having multiple options. Distinguishing between risk (event) and ambiguity (clarity) is key. (Guide Section 2.8.2)"
+    },
+    {
+      "id": 55,
+      "category": "performance_domains",
+      "question": "In the 'Team' domain, a 'high-performing culture' is characterized by:",
+      "options": ["Individual accountability without team collaboration", "Shared responsibility and trust among members", "A focus on completing tasks as quickly as possible", "Rigid adherence to the project manager's commands"],
+      "correct": 1,
+      "explanation": "High-performing project teams demonstrate qualities such as shared goals, effective communication, and trust. Team maturity leads to efficiency and synergy. (Guide Section 2.2.3)"
+    },
+    {
+      "id": 56,
+      "category": "performance_domains",
+      "question": "Which of the following influences the choice of a development approach?",
+      "options": ["Product complexity, innovation levels, and stakeholder needs", "The size of the project office's physical space", "The project manager's previous experience in a different industry", "The number of artifacts used in the planning domain"],
+      "correct": 0,
+      "explanation": "The choice of development approach is influenced by product complexity, innovation levels, and stakeholder needs. The delivery cadence dictates the frequency of planning sessions. (Guide Section 2.3)"
+    },
+    {
+      "id": 57,
+      "category": "performance_domains",
+      "question": "The 'Measurement' domain provides the necessary data for:",
+      "options": ["Hiring new team members", "Evaluating project performance and taking corrective actions", "Creating the initial project charter", "Defining the organization's strategic vision"],
+      "correct": 1,
+      "explanation": "Measurement enables control and adaptability. Stakeholders define the requirements for deliverables and determine if performance is acceptable. We only measure what stakeholders value. (Guide Section 2.7)"
+    },
+    {
+      "id": 58,
+      "category": "performance_domains",
+      "question": "'Volatility' in the context of the Uncertainty domain means:",
+      "options": ["Rapid and unpredictable change in the environment", "A stable and predictable project schedule", "A lack of clarity regarding stakeholder requirements", "The total budget available for the project"],
+      "correct": 0,
+      "explanation": "Volatility exists in a state of rapid and unpredictable change. High volatility requires adaptive responses and flexible project management approaches. (Guide Section 2.8.4)"
+    },
+    {
+      "id": 59,
+      "category": "performance_domains",
+      "question": "A project manager observes that external vendors are consistently late with deliverables. According to the interaction between 'Project Work' and 'Delivery' domains, what is the best approach?",
+      "options": ["Stop all project work until the vendors deliver", "Manage the vendor relationship and adjust the delivery schedule", "Ignore the delays and focus on internal tasks", "Increase the project budget to pay for faster delivery"],
+      "correct": 1,
+      "explanation": "Project Work includes managing vendor relationships and ensuring process efficiency. The interaction between Project Work and Delivery requires proactive vendor management and schedule adjustment. (Guide Section 2.5)"
+    },
+    {
+      "id": 60,
+      "category": "performance_domains",
+      "question": "Which domain is responsible for creating a structure that guides the team throughout the project lifecycle?",
+      "options": ["Stakeholders", "Measurement", "Planning", "Uncertainty"],
+      "correct": 2,
+      "explanation": "Planning addresses activities and functions associated with the initial, ongoing, and evolving organization and coordination necessary for delivering project outcomes. Planning provides the blueprint for delivery. (Guide Section 2.4)"
+    },
+    {
+      "id": 61,
+      "category": "tailoring",
+      "question": "A project manager is starting a small internal project with a team that has worked together for years. Why should they still perform 'Tailoring'?",
+      "options": ["To increase the complexity of the project", "To ensure the processes are efficient and suit the specific project context", "To follow the PMBOK Guide exactly as written", "To justify a larger project management budget"],
+      "correct": 1,
+      "explanation": "Tailoring is the deliberate adaptation of the project management approach to the unique context and environment of the project. Every project is unique and 'one size does not fit all.' (Guide Section 3.1)"
+    },
+    {
+      "id": 62,
+      "category": "tailoring",
+      "question": "What components of a project management approach are typically tailored?",
+      "options": ["Only the project charter and budget", "Processes, methods, artifacts, and life cycle phases", "The organization's core strategic objectives", "The national laws and regulations of the country"],
+      "correct": 1,
+      "explanation": "The four steps of tailoring: Step 1 — select initial development approach; Step 2 — tailor for the organization; Step 3 — tailor for the project; Step 4 — implement continuous improvement. (Guide Section 3.4)"
+    },
+    {
+      "id": 63,
+      "category": "tailoring",
+      "question": "Which factor should be considered when tailoring the 'Development Approach'?",
+      "options": ["Innovation levels, requirements certainty, and risk profile", "The office layout and the type of furniture used", "The personal hobbies of the project team members", "The number of printers available in the organization"],
+      "correct": 0,
+      "explanation": "Tailoring is not a one-time event. The project team should implement continuous improvement by reviewing and refining the approach. Factors include innovation levels, requirements certainty, and risk profile. (Guide Section 3.4.4)"
+    },
+    {
+      "id": 64,
+      "category": "tailoring",
+      "question": "Tailoring should be viewed as:",
+      "options": ["A one-time event at the beginning of the project", "An ongoing, iterative process throughout the project", "A task that only the Project Management Office (PMO) can perform", "A way to avoid following organizational policies"],
+      "correct": 1,
+      "explanation": "Project factors that influence tailoring include size, complexity, criticality, and team experience. Contextual factors dictate the rigor of the methodology and how often tailoring is revisited. (Guide Section 3.4.3)"
+    },
+    {
+      "id": 65,
+      "category": "tailoring",
+      "question": "What is the first step in the tailoring process?",
+      "options": ["Select the initial development approach", "Implement continuous improvement", "Tailor for the organization", "Define the project's strategic goals"],
+      "correct": 0,
+      "explanation": "Everything that supports delivery is subject to adaptation. The first step in tailoring is selecting the initial development approach (predictive, adaptive, or hybrid). (Guide Section 3.3)"
+    },
+    {
+      "id": 66,
+      "category": "tailoring",
+      "question": "Tailoring 'for the Organization' involves adjusting the project approach to:",
+      "options": ["Change the company's mission statement", "Align with organizational policies, culture, and governance", "Hire new executives for the sponsor role", "Redesign the organization's financial systems"],
+      "correct": 1,
+      "explanation": "Organizations often have a project management methodology. The project team may need to tailor the organization's process for their project, aligning with culture and governance. (Guide Section 3.4.2)"
+    },
+    {
+      "id": 67,
+      "category": "tailoring",
+      "question": "Why do we tailor 'for the Project'?",
+      "options": ["To account for its size, criticality, and unique risks", "To ensure it costs as much as a previous project", "To reduce the frequency of team meetings to once per month", "To avoid using any digital artifacts"],
+      "correct": 0,
+      "explanation": "The risk of not tailoring is wasted resources and ineffective communication. Tailoring for the project accounts for size, criticality, and unique risks of the specific project. (Guide Section 3.2)"
+    },
+    {
+      "id": 68,
+      "category": "tailoring",
+      "question": "A key benefit of tailoring is that it helps the team to:",
+      "options": ["Increase the amount of project bureaucracy", "Maximize efficiency and focus on delivering value", "Follow the same approach for every project", "Eliminate all project risks entirely"],
+      "correct": 1,
+      "explanation": "The team is responsible for identifying the need for tailoring as the project evolves. The key benefit of tailoring is maximizing efficiency and focusing on delivering value. (Guide Section 3.5.2)"
+    },
+    {
+      "id": 69,
+      "category": "tailoring",
+      "question": "In a situation where the product requirements are highly stable and the project is repetitive, which approach is most likely to be selected?",
+      "options": ["Predictive", "Adaptive", "Hybrid", "Volatile"],
+      "correct": 0,
+      "explanation": "Adapting communication styles to meet stakeholder needs is part of engagement tailoring. The predictive approach is most appropriate when requirements are stable and the project is repetitive. (Guide Section 3.3.3)"
+    },
+    {
+      "id": 70,
+      "category": "tailoring",
+      "question": "'Continuous improvement' in tailoring is best described as:",
+      "options": ["Changing the project scope every week", "Regularly reviewing the tailored approach and making necessary adjustments", "Adding more processes whenever the project is behind schedule", "Following the initial plan without any deviations"],
+      "correct": 1,
+      "explanation": "Continuous improvement through retrospectives allows the team to adapt the approach throughout the lifecycle. Retrospectives or lessons learned sessions are common diagnostic tools for tailoring. (Guide Section 3.6)"
+    },
+    {
+      "id": 71,
+      "category": "tailoring",
+      "question": "Which organizational factor is a key consideration during tailoring?",
+      "options": ["The weather conditions at the project site", "Governance, audit, and compliance requirements", "The personal preferences of the project team's family members", "The international time zones of unrelated projects"],
+      "correct": 1,
+      "explanation": "Criticality is a project factor that determines the level of oversight and documentation required. Key organizational factors include governance, audit, and compliance requirements. (Guide Section 3.4.3)"
+    },
+    {
+      "id": 72,
+      "category": "tailoring",
+      "question": "Why is there no 'single best approach' for every project?",
+      "options": ["Because the PMBOK Guide is only a set of suggestions", "Because every project has a unique context and environment", "Because project managers prefer to change things constantly", "Because it is required by international project management law"],
+      "correct": 1,
+      "explanation": "Regulatory requirements often override tailoring flexibility. There is no single best approach because every project has a unique context, environment, and constraints. (Standard Section 3.1)"
+    },
+    {
+      "id": 73,
+      "category": "tailoring",
+      "question": "Tailoring 'Processes' might involve:",
+      "options": ["Adding, modifying, or removing steps based on project needs", "Ignoring all safety and legal regulations to save time", "Using as many complex processes as possible", "Standardizing all processes across the entire industry"],
+      "correct": 0,
+      "explanation": "Complexity influences the choice of models and methods; complex projects may need more integration processes. Process tailoring means adding, modifying, or removing steps based on project needs. (Guide Section 3.4.3)"
+    },
+    {
+      "id": 74,
+      "category": "tailoring",
+      "question": "When tailoring 'Artifacts,' the project manager must decide:",
+      "options": ["Which font and color scheme to use for the logo", "Which documents, logs, and reports are essential for value delivery", "How to store the team's personal equipment", "Who will be responsible for signing the team's vacation requests"],
+      "correct": 1,
+      "explanation": "The project team and project manager are responsible for tailoring at the project level. Artifact tailoring means deciding which documents and reports are essential for value delivery. (Guide Section 3.4.3)"
+    },
+    {
+      "id": 75,
+      "category": "tailoring",
+      "question": "An adaptive approach is most appropriate when:",
+      "options": ["Requirements are likely to change and innovation is high", "The project has a fixed budget and a very simple scope", "There is no uncertainty regarding the final outcome", "The project must be completed using a strict waterfall method"],
+      "correct": 0,
+      "explanation": "Adapting how the team interacts with stakeholders is part of engagement tailoring. The adaptive approach is most appropriate when requirements are likely to change and innovation is high. (Guide Section 3.3.3)"
+    },
+    {
+      "id": 76,
+      "category": "tailoring",
+      "question": "Who is primarily responsible for tailoring the project management approach?",
+      "options": ["The project manager and the project team", "Only the external auditor of the organization", "The customers and end users of the product", "The government's regulatory body"],
+      "correct": 0,
+      "explanation": "Aligning the delivery cadence with the business's need for value is part of lifecycle tailoring. The project manager and the project team bear primary responsibility for tailoring. (Guide Section 3.3.1)"
+    },
+    {
+      "id": 77,
+      "category": "tailoring",
+      "question": "Tailoring helps the team to avoid 'wasted effort.' This means:",
+      "options": ["Avoiding all work during the project", "Eliminating unnecessary steps and bureaucracy", "Stopping all communication with stakeholders", "Using the cheapest available tools and resources"],
+      "correct": 1,
+      "explanation": "Step 4 of tailoring — implement continuous improvement — involves reviewing how well the approach is working. Eliminating unnecessary steps and bureaucracy is a key benefit of tailoring. (Guide Section 3.4.4)"
+    },
+    {
+      "id": 78,
+      "category": "tailoring",
+      "question": "Which of the following is a 'Project-Specific' factor for tailoring?",
+      "options": ["The organization's global financial policy", "Complexity, size, and criticality of the project", "The general trends in the global market", "The company's internal mailing software"],
+      "correct": 1,
+      "explanation": "Tailoring improves the alignment between project activities and strategic goals. Project-specific factors for tailoring include complexity, size, and criticality. (Guide Section 3.2)"
+    },
+    {
+      "id": 79,
+      "category": "tailoring",
+      "question": "Effective tailoring should always focus on:",
+      "options": ["Achieving desired outcomes and value delivery", "Following the PMO's manual without any changes", "Creating as many artifacts as the team can produce", "Keeping the project manager in control of all tasks"],
+      "correct": 0,
+      "explanation": "Teams tailor methods to suit the way they work. Effective tailoring always focuses on achieving desired outcomes and delivering value, not on following rules for their own sake. (Guide Section 3.3.5)"
+    },
+    {
+      "id": 80,
+      "category": "tailoring",
+      "question": "Diagnostic tools in the tailoring process are used to:",
+      "options": ["Repair project equipment", "Identify where adjustments to the approach are needed", "Calculate the team members' taxes and salaries", "Monitor the external competition's progress"],
+      "correct": 1,
+      "explanation": "Tailoring results in a project management approach that is more relevant and effective. Diagnostic tools help identify where adjustments to the approach are needed during the project lifecycle. (Guide Section 3.1)"
+    },
+    {
+      "id": 81,
+      "category": "models_artifacts",
+      "question": "What is the best description of a 'Model' in project management?",
+      "options": ["A small-scale physical version of the product", "A simplified representation of a complex reality used to explain a process", "A set of rules that must be followed without deviation", "A specific software tool used for task management"],
+      "correct": 1,
+      "explanation": "For a mature, autonomous team, situational leadership recommends a delegating style. A Model is a simplified representation of complex reality used to explain processes and support decision-making. (Guide Section 4.2.1)"
+    },
+    {
+      "id": 82,
+      "category": "models_artifacts",
+      "question": "A project manager uses a 'situational leadership' model. This means they:",
+      "options": ["Use the same leadership style for every team member", "Adapt their leadership style based on the team's maturity and context", "Let the team make all decisions without any guidance", "Follow a strict command-and-control approach"],
+      "correct": 1,
+      "explanation": "For tracking daily task progress, a Task Board or Kanban Board is best. Situational leadership adapts style based on the team's maturity and context. (Guide Section 4.2.1)"
+    },
+    {
+      "id": 83,
+      "category": "models_artifacts",
+      "question": "Motivation models are applied by a project manager to:",
+      "options": ["Understand and influence team performance and engagement", "Calculate the exact financial bonuses for team members", "Force people to work more hours for less money", "Replace the need for regular team meetings"],
+      "correct": 0,
+      "explanation": "Motivation models (e.g., Maslow's Hierarchy) explain what drives people. Managers apply them to understand and influence team performance and engagement. (Guide Section 4.2.3)"
+    },
+    {
+      "id": 84,
+      "category": "models_artifacts",
+      "question": "In project management terminology, what is a 'Method'?",
+      "options": ["A document used to record project risks", "A means or way of achieving a specific outcome or result", "A person responsible for managing the project team", "A type of organization that manages multiple portfolios"],
+      "correct": 1,
+      "explanation": "Root cause analysis is used to identify the underlying reasons for a variance. A Method is a means or way of achieving a specific outcome, output, result, or project deliverable. (Guide Section 4.4.1)"
+    },
+    {
+      "id": 85,
+      "category": "models_artifacts",
+      "question": "During a monthly review, the performance data shows that actual costs are much higher than the planned value for the work performed. Which method provides this insight?",
+      "options": ["Conflict resolution analysis", "Earned Value Management (EVM)", "Qualitative risk assessment", "Parametric estimating"],
+      "correct": 1,
+      "explanation": "A Method is a means for achieving an outcome; an Artifact is a template or document. Earned Value Management (EVM) reveals variances between actual costs and planned value of work performed. (Guide Section 4.1)"
+    },
+    {
+      "id": 86,
+      "category": "models_artifacts",
+      "question": "What is an 'Artifact' in the context of project management?",
+      "options": ["A piece of ancient equipment found at a project site", "A template, document, or output of project work", "A specific leadership behavior demonstrated by the team", "A software bug identified during the testing phase"],
+      "correct": 1,
+      "explanation": "A Business Case is a documented economic feasibility study used for strategic alignment. An Artifact is a template, document, or output of project work. (Guide Section 4.6.1)"
+    },
+    {
+      "id": 87,
+      "category": "models_artifacts",
+      "question": "A project manager needs to visualize the decomposition of the total project scope into smaller work packages. Which artifact is best for this?",
+      "options": ["Work Breakdown Structure (WBS)", "Risk Register", "Project Charter", "Milestone List"],
+      "correct": 0,
+      "explanation": "Analogous estimating uses values (scope, cost, duration) from a previous, similar project. A WBS is a hierarchical decomposition of the total scope of work to be carried out by the project team. (Guide Section 4.4.2)"
+    },
+    {
+      "id": 88,
+      "category": "models_artifacts",
+      "question": "'Logs' and 'Registers' are artifacts used to:",
+      "options": ["Calculate the total financial return of the project", "Record, track, and monitor specific project information", "Store the company's long-term historical archives", "Pay the salaries of the project team members"],
+      "correct": 1,
+      "explanation": "The Tuckman Ladder describes the stages teams go through (Forming, Storming, Norming, Performing). Logs and registers are artifacts for recording, tracking, and monitoring specific project information. (Guide Section 4.2.6)"
+    },
+    {
+      "id": 89,
+      "category": "models_artifacts",
+      "question": "A 'Project Charter' is classified as which type of artifact?",
+      "options": ["Strategy artifact", "Financial artifact", "Technical artifact", "Agreement artifact"],
+      "correct": 0,
+      "explanation": "Conflict management is a method for resolving disagreements in the Team and Stakeholder domains. The Project Charter is a strategy artifact that formally authorizes the project and grants authority to the PM. (Guide Section 4.4.4)"
+    },
+    {
+      "id": 90,
+      "category": "models_artifacts",
+      "question": "What is the primary purpose of communication models in a project?",
+      "options": ["To track the personal messages of team members", "To ensure efficient and effective information exchange", "To formalize the project communication plan", "To minimize the amount of time spent on stakeholder engagement"],
+      "correct": 1,
+      "explanation": "Visual data and information include S-curves and burn charts used in the Measurement domain. Communication models describe the process of sharing information between team members and stakeholders. (Guide Section 4.6.6)"
+    },
+    {
+      "id": 91,
+      "category": "models_artifacts",
+      "question": "Which method is used to calculate the probable duration or effort needed for a task?",
+      "options": ["Root cause analysis", "Estimating (e.g., analogous, parametric, or three-point)", "Project close-out meeting", "Stakeholder mapping"],
+      "correct": 1,
+      "explanation": "ADKAR or Kotter's 8-Step Model are used for managing organizational change. Estimating (analogous, parametric, three-point) is the method used to calculate probable task duration or effort. (Guide Section 4.2.4)"
+    },
+    {
+      "id": 92,
+      "category": "models_artifacts",
+      "question": "'Baselines' for scope, schedule, and cost are artifacts used to:",
+      "options": ["Start a project without any initial planning", "Provide a reference against which actual performance is compared", "Calculate the project manager's annual bonus", "Replace the need for regular project status reports"],
+      "correct": 1,
+      "explanation": "The Risk Register is a repository in which outputs of risk management processes are recorded. Baselines for scope, schedule, and cost provide a reference for comparing actual performance. (Guide Section 4.6.2)"
+    },
+    {
+      "id": 93,
+      "category": "models_artifacts",
+      "question": "Conflict models help project teams to:",
+      "options": ["Identify, analyze, and resolve disagreements effectively", "Encourage more competition between team members", "Avoid all types of conflict at any cost", "Automate the decision-making process for the team"],
+      "correct": 0,
+      "explanation": "Bottom-up estimating involves estimating individual work packages and summing them — the most precise estimation method. Conflict models help teams identify, analyze, and effectively resolve disagreements. (Guide Section 4.4.2)"
+    },
+    {
+      "id": 94,
+      "category": "models_artifacts",
+      "question": "What is a 'Project Management Plan'?",
+      "options": ["A single document listing only the project tasks", "A comprehensive artifact describing how the project will be managed", "A list of contact information for all stakeholders", "A financial budget approved by the organizational board"],
+      "correct": 1,
+      "explanation": "Communication models describe the process of sharing information and are used in the Stakeholder and Team domains. The Project Management Plan is a comprehensive artifact describing how the project will be managed. (Guide Section 4.2.2)"
+    },
+    {
+      "id": 95,
+      "category": "models_artifacts",
+      "question": "'Visual Data and Information' artifacts include which of the following?",
+      "options": ["A voice recording of a project meeting", "Dashboards, heat maps, and burn charts", "A printed legal contract with external vendors", "A project manager's personal notebook"],
+      "correct": 1,
+      "explanation": "The Project Charter is issued by the project initiator and formally authorizes the project. Dashboards, heat maps, and burn charts are visual data and information artifacts. (Guide Section 4.6.1)"
+    },
+    {
+      "id": 96,
+      "category": "models_artifacts",
+      "question": "Change models in project management focus on:",
+      "options": ["Changing the project budget whenever costs increase", "Helping individuals and organizations transition to a future state", "Avoiding any adjustments to the project's original plan", "Replacing the project team members who resist changes"],
+      "correct": 1,
+      "explanation": "Schedule analysis (Critical Path Method) determines project duration and activity sequence. Change models help individuals and organizations transition to a future state. (Guide Section 4.4.1)"
+    },
+    {
+      "id": 97,
+      "category": "models_artifacts",
+      "question": "What is the role of 'Meetings and Events' as methods?",
+      "options": ["To facilitate collaboration, decision-making, and alignment", "To demonstrate administrative compliance", "To replace the need for written project reports", "To manage project risks automatically using software"],
+      "correct": 0,
+      "explanation": "WBS is a hierarchical decomposition of the total scope of work used in the Planning domain. Meetings and Events as methods facilitate collaboration, decision-making, and alignment among stakeholders. (Guide Section 4.6.4)"
+    },
+    {
+      "id": 98,
+      "category": "models_artifacts",
+      "question": "An 'Issue Log' is an artifact used to:",
+      "options": ["Track the team members' office attendance", "Document and track obstacles to project success", "Record the company's long-term business strategy", "Calculate the project's return on investment (ROI)"],
+      "correct": 1,
+      "explanation": "The Cynefin framework helps navigate the Uncertainty domain by distinguishing between simple and chaotic systems. An Issue Log is an artifact for documenting and tracking obstacles to project success. (Guide Section 4.2.5)"
+    },
+    {
+      "id": 99,
+      "category": "models_artifacts",
+      "question": "In an adaptive project, which artifact defines the criteria for a deliverable to be considered complete?",
+      "options": ["Project Scope Statement", "Definition of Done (DoD)", "Team Organizational Chart", "Procurement Management Plan"],
+      "correct": 1,
+      "explanation": "A Roadmap is a high-level visual summary of the project's strategy or expected deliverables. The Definition of Done (DoD) in an adaptive project defines the criteria for a deliverable to be considered complete. (Guide Section 4.6.1)"
+    },
+    {
+      "id": 100,
+      "category": "models_artifacts",
+      "question": "Why must models, methods, and artifacts be tailored for each project?",
+      "options": ["To maintain organizational compliance regardless of cost", "To provide the most value for the specific project context", "To use every available tool in the project management software", "To fulfill a legal requirement from the government"],
+      "correct": 1,
+      "explanation": "Mapping models, methods, and artifacts to performance domains helps teams select the most appropriate tools. Tailoring ensures the most value is provided for the specific project context. (Guide Section 4.3)"
+    }
+  ]
+}

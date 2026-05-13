@@ -5,7 +5,7 @@ let locales = {};
 
 export async function loadLocale(lang) {
   if (!locales[lang]) {
-    const res = await fetch(`/src/locales/${lang}.json`);
+    const res = await fetch(`/locales/${lang}.json`);
     locales[lang] = await res.json();
   }
   currentLang = lang;

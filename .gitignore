@@ -3,3 +3,8 @@
 /masterprompt.md
 /Quiz questions.md
 /skills.md
+node_modules/
+dist/
+.claude/
+*.local
+.DS_Store
