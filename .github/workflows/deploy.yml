@@ -16,6 +16,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Remove legacy Pages project (quiz)
+        continue-on-error: true
+        run: |
+          curl -s -X DELETE \
+            "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CLOUDFLARE_ACCOUNT_ID }}/pages/projects/quiz" \
+            -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}"
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
