@@ -1,27 +1,20 @@
-name: Deploy to Cloudflare Pages
+name: CI
 
 on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      deployments: write
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Remove legacy Pages project (quiz)
-        continue-on-error: true
-        run: |
-          curl -s -X DELETE \
-            "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CLOUDFLARE_ACCOUNT_ID }}/pages/projects/quiz" \
-            -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -34,12 +27,3 @@ jobs:
 
       - name: Build
         run: npm run build
-
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: pmquiz
-          directory: dist
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
